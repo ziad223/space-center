@@ -1,0 +1,46 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Lateef", serif;
+  direction: rtl;
+}
+.container{
+  width: 90%;
+  margin: auto;
+}
+.app.dark{
+  background-color: #222;
+  color: #ddd;
+}
+.app.dark .navbar{
+  background-color: #222;
+  color: #ddd;
+}
+.app.dark .navbar .logo h2{
+color: rgb(206,185,12);
+}
+.app.dark .navbar .logo span{
+  color: #ddd;
+}
+.app.dark .navbar .links ul li a{
+  color: #ddd;
+  }
+  .app.dark .navbar .links ul li a:hover{
+    color: gold;
+  }
+  .app.dark .about .content p{
+    color: rgb(206,185,12);
+}
+.app.dark .about-two .content-two .icons-container .icons{
+  background-color: #444;
+}
+.app.dark .about-two .content-two .icons-container .icons h3 {
+  padding: .5rem 0;
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #ddd;
+}

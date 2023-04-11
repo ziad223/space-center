@@ -1,0 +1,156 @@
+.contact{
+ margin-top: 100px;
+}
+
+.contact .icons-container {
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact .heading{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(196,47,217);
+    border: 2px dotted rgb(196,47,217);
+    padding: 20px;
+    margin-bottom: 50px;
+
+  }
+
+  .contact .heading span{
+    color: rgb(206,185,12);
+
+  }
+  
+  .contact .icons-container .icons {
+    text-align: center;
+    padding: 3rem 2rem;
+    border: 0.1rem solid rgb(196,47,217);
+    background: #f0fdfa;
+    margin: 10px;
+    height: 320px;
+
+  }
+  
+  .contact .icons-container .icons i {
+    height: 6rem;
+    width: 6rem;
+    line-height: 6rem;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin-bottom: .5rem;
+    color: #fff;
+    background: rgb(196,47,217);
+  }
+
+  .contact .icons-container .icons{
+    width: 300px;
+  }
+   
+  .contact .icons-container .icons h3 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: #444;
+    padding: .5rem 0;
+  }
+  
+  .contact .icons-container .icons p {
+    font-size: 1.5rem;
+    line-height: 2;
+    color: #777;
+  }
+  
+  .contact .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .contact .row .image {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 40rem;
+            flex: 1 1 40rem;
+  }
+  
+  .contact .row .image img {
+    width: 100%;
+  }
+  
+  .contact .row form {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 40rem;
+            flex: 1 1 40rem;
+    border: 0.1rem solid #0eb582;
+    padding: 2rem;
+  }
+  
+  .contact .row form h3 {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    color: #444;
+    padding-bottom: 1rem;
+  }
+  
+  .contact .row form .box {
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    border: 0.1rem solid #0eb582;
+    font-size: 1.6rem;
+    margin: .7rem 0;
+  }
+  
+  .contact .row form .box:focus {
+    background: #0eb582;
+    color: #fff;
+  }
+  
+  .contact .row form .box:focus::-webkit-input-placeholder {
+    color: #eee;
+  }
+  
+  .contact .row form .box:focus:-ms-input-placeholder {
+    color: #eee;
+  }
+  
+  .contact .row form .box:focus::-ms-input-placeholder {
+    color: #eee;
+  }
+  
+  .contact .row form .box:focus::placeholder {
+    color: #eee;
+  }
+  
+  .contact .row form textarea {
+    height: 15rem;
+    resize: none;
+  }
+  
+
+  @media screen and (max-width : 450px) {
+  
+       .contact .icons-container {
+           flex-direction: column;
+         }
+         
+ 
+         
+         .contact .icons-container .icons i {
+           height: 5rem;
+           width: 5rem;
+           line-height: 5rem;
+           font-size: 1.5rem;
+         }
+          
+      
+         .contact .icons-container .icons h3 {
+           font-size: 1.5rem;
+         }
+   
+  }

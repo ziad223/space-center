@@ -1,0 +1,94 @@
+.subjects{
+    margin-top: 100px;
+}
+.subjects h2{
+    margin-bottom: 100px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px dotted rgb(196,47,217);
+    padding: 20px;
+    color: rgb(196,47,217);
+}
+.subjects h2 span{
+    color: rgb(206,185,12);
+
+}
+.subjects .langs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.subjects .langs .lang{
+    width: 45%;
+    margin: 10px;
+    border: 2px solid rgb(196,47,217);
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.subjects .langs .lang h2{
+   margin-bottom: 10px;
+   font-size: 30px;
+}
+.subjects .langs .lang p{
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: rgb(206,185,12);
+ }
+
+.subjects .langs .lang img{
+    width: 100%;
+}
+.subjects .langs .lang button{
+    background-color: transparent;
+    color: rgb(206,185,12);
+    padding: 20px 10px;
+    cursor: pointer;
+    margin: 10px;
+    width: 100%;
+    font-size: 27px;
+    outline: none;
+    border: 1px solid rgb(196,47,217);
+    transition: all 0.5s linear;
+}
+.subjects .langs .lang button:hover{
+    background-color: rgb(196,47,217);
+    color: #fff;
+}
+
+@media screen and (max-width : 450px) {
+
+    .subjects h2{
+        font-size: 30px;
+    }
+
+    .subjects .langs .lang{
+        width: 98%;
+    }
+    .subjects .langs .lang h2{
+       margin-bottom: 10px;
+       font-size: 30px;
+    }
+    .subjects .langs .lang p{
+        font-size: 20px;
+     }
+    
+    .subjects .langs .lang img{
+        max-width: 100%;
+    }
+    .subjects .langs .lang button{
+        width: 90%;
+        font-size: 24px;
+   
+    }
+   
+    .subjects{
+        margin-top: 50px;
+    }
+    .subjects h2{
+        margin-bottom: 50px;
+    }
+}
+

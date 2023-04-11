@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#eee;
+}
+.navbar .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar .logo img{
+    width: 100px;
+    height: 100px;
+}
+.navbar .logo h2{
+    color: rgb(206,185,12);
+    font-size: 30px;
+}
+.moon{
+    font-size: 25px;
+    cursor: pointer;
+}
+.sun{
+    font-size: 25px;
+    cursor: pointer;
+    animation: rotation infinite 5s linear;
+
+}
+@keyframes rotation {
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.navbar .logo span{
+    color: rgb(196,47,217);
+}
+.navbar .links ul{
+list-style: none;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.navbar .links ul li{
+margin-right: 20px;
+}
+.navbar .links ul li a{
+font-size: 22px;
+text-decoration: none;
+color: rgb(135, 9, 151);
+font-weight: bold;
+}
+.navbar .links ul li a:hover{
+    color: rgb(206,185,12);
+}
+.navbar .icon{
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+.mo{
+    display: none;
+}
+.all{
+    margin-right: 20px; 
+}
+@media screen and (max-width : 450px) {
+    .navbar .logo img{
+        width: 70px;
+        height: 70px;
+    }
+    .navbar .logo h2{
+        color: rgb(206,185,12);
+        font-size: 18px;
+    }
+    .links{
+        display: none;
+    }
+    .navbar .icon{
+        display: block;
+    }
+    .open-links{
+        position: absolute;
+        top: 70px;
+        right: 0px;
+        background-color: #fff;
+        padding: 20px;
+        transition: all 0.5s linear;
+    }
+    .open-links ul{
+        list-style: none;
+    }
+    .open-links ul li{
+        margin-top: 20px;
+        text-align: center;
+
+    }
+    .open-links ul li a{
+        text-decoration: none;
+        color: rgb(135, 9, 151); 
+        font-weight: bold;
+    }
+    .open-links ul li a:hover{
+        color: rgb(206,185,12);
+    }
+    .all{
+        display: none;
+    }
+    .mo{
+        display: block;
+    }
+}

@@ -1,0 +1,48 @@
+.choose{
+    margin-top: 100px;
+}
+.choose h2{
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px dotted rgb(196,47,217);
+    padding: 20px;
+    color: rgb(196,47,217);
+}
+
+.choose h2 span{
+    color: rgb(206,185,12);
+}
+.choose .content{
+    border: 1px dotted rgb(196,47,217);
+    padding: 20px;
+}
+.choose .content p{
+    line-height: 1.5;
+    font-size: 25px;
+
+}
+.choose .content p span{
+    font-size: 30px;
+    font-weight: bold;
+}
+@media screen and (max-width : 450px){
+    .choose{
+        margin-top: 50px;
+    }
+    .choose h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+
+.choose .content p{
+    font-size: 21px;
+
+}
+.choose .content p span{
+    font-size: 23px;
+}
+}
